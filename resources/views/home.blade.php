@@ -9,7 +9,9 @@
 </head>
 
 <body>
-    <h1>HELLO WORD</h1>
+    <h1>Hello</h1>
+    <h1>{{$welcome}}</h1>
+    
 </body>
 
 </html>
