@@ -17,4 +17,12 @@ Route::get('/', function () {
     $welcome = 'Welcome to Laravel';
 
     return view('home', compact('welcome'));
-});
+})->name("home");
+
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
+
+Route::get('/partner', function () {
+    return view('partner');
+})->name('partner');
